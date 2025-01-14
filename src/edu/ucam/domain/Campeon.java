@@ -1,11 +1,11 @@
 package edu.ucam.domain;
 
-import static org.junit.Assert.assertTrue;
+
+
 
 import java.util.ArrayList;
 import java.util.Random;
 
-import org.junit.Test;
 
 import edu.ucam.constantes.Rol;
 import edu.ucam.constantes.TipoHabilidad;
