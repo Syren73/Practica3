@@ -54,6 +54,7 @@ public boolean detener() {
 	
 	
 	public static void main(String[] args) {
+		System.out.println("Hello world!");
 		Combate combate = new Combate();
 		ArrayList<Habilidad> camp1Habilidades = new ArrayList<>();
 		ArrayList<Habilidad> camp2Habilidades= new ArrayList<>();
