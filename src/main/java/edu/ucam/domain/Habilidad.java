@@ -1,4 +1,4 @@
-package edu.ucam.domain;
+package main.java.edu.ucam.domain;
 
 import edu.ucam.constantes.TipoHabilidad;
 
