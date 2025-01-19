@@ -4,10 +4,10 @@ import static org.junit.Assert.assertTrue;
 import java.util.ArrayList;
 import org.junit.Test;
 
-import edu.ucam.constantes.Rol;
-import edu.ucam.constantes.TipoHabilidad;
-import edu.ucam.domain.Campeon;
-import edu.ucam.domain.Habilidad;
+import main.java.edu.ucam.constantes.Rol;
+import main.java.edu.ucam.constantes.TipoHabilidad;
+import main.java.edu.ucam.domain.Campeon;
+import main.java.edu.ucam.domain.Habilidad;
 
 public class PruebasHabilidadTest {
 	@Test

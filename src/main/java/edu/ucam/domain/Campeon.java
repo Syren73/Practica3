@@ -1,14 +1,11 @@
 package main.java.edu.ucam.domain;
 
-
-
-
 import java.util.ArrayList;
 import java.util.Random;
 
 
-import edu.ucam.constantes.Rol;
-import edu.ucam.constantes.TipoHabilidad;
+import main.java.edu.ucam.constantes.Rol;
+import main.java.edu.ucam.constantes.TipoHabilidad;
 
 public class Campeon {
 public Campeon(String nombre, Rol rol, int hp, int daño, int defensa,ArrayList<Habilidad> habilidades) {

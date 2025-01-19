@@ -1,6 +1,6 @@
 package main.java.edu.ucam.domain;
 
-import edu.ucam.constantes.TipoHabilidad;
+import main.java.edu.ucam.constantes.TipoHabilidad;
 
 public class Habilidad {
 public Habilidad(String nombre, int daño, TipoHabilidad tipo) {
