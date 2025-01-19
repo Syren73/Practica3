@@ -33,15 +33,8 @@
 
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
-         <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.2.5</version>
-<configuration>
-    <includes>
-        <include>PruebasCampeonTest.java</include>
-        <include>PruebasHabilidadTest.java</include>
-        <include>PruebasCombateTest.java</include>
-    </includes>
-</configuration>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.2.5</version>
 </plugin>
 
     </plugins>
