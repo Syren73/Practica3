@@ -1,5 +1,4 @@
-package edu.ucam.pruebas;
-
+package test;
 import static org.junit.Assert.assertTrue;
 
 
@@ -7,13 +6,13 @@ import java.util.ArrayList;
 import java.util.Random;
 
 import org.junit.Test;
-
 import edu.ucam.constantes.Rol;
 import edu.ucam.constantes.TipoHabilidad;
 import edu.ucam.domain.Campeon;
 import edu.ucam.domain.Habilidad;
 
-public class PruebasCampeon {
+public class PruebasCampeonTest {
+
 	@Test
 	public void testPostCreate() {
 		ArrayList<Habilidad> camp1Habilidades = new ArrayList<>();

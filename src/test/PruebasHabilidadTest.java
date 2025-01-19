@@ -1,4 +1,4 @@
-package edu.ucam.pruebas;
+package test;
 
 import static org.junit.Assert.assertTrue;
 
