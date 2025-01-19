@@ -19,8 +19,10 @@ public class PruebasHabilidadTest {
 	Campeon temp =	new Campeon("camp1",Rol.ASESINO,400, 30,10 ,camp1Habilidades);
 	Campeon temp1 =new Campeon("camp2",Rol.TANQUE,600,20,20,null);
 	temp.usar_habilidad(temp1,temp.getHabilidades().get(0));
-	assertTrue(temp1.getHp_actual() == 560);
-	assertTrue(temp1.getHp_actual() == (temp1.getHp() -(60 - 20)));}
+	//Condicion erronea
+	assertTrue(temp1.getHp_actual() == 700);}
+	//Condicion correcta
+	//assertTrue(temp1.getHp_actual() == (temp1.getHp() -(60 - 20)));}
 	
 	@Test
 	public void testAplicacionCura1() {
@@ -30,7 +32,10 @@ public class PruebasHabilidadTest {
 	Campeon temp1 =new Campeon("camp2",Rol.TANQUE,600,20,20,null);
 	temp1.atacar(temp);
 	temp.usar_habilidad(temp1,temp.getHabilidades().get(0));
-	assertTrue(temp.getHp_actual() == temp.getHp());}
+	//Condicion erronea
+	assertTrue(temp.getHp_actual() == -1);}
+	//Condicion correcta
+	//assertTrue(temp.getHp_actual() == temp.getHp());}
 	
 	@Test
 	public void testAplicacionCura2() {

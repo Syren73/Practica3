@@ -4,12 +4,10 @@
   <artifactId>Practica4_artifact</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <!-- Especifica la codificación del proyecto -->
   <properties> 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <!-- Dependencia de JUnit para pruebas -->
   <dependencies>
     <dependency>
         <groupId>junit</groupId>
@@ -20,38 +18,33 @@
   </dependencies>
   
   <build>
-    <!-- Configuración para compilar el código fuente -->
-    <sourceDirectory>src/main/java</sourceDirectory> <!-- Correcto para el código fuente -->
-    
-    <!-- Directorio para las pruebas -->
-    <testSourceDirectory>src/test/java</testSourceDirectory> <!-- Correcto para las pruebas -->
+
+    <sourceDirectory>src/main/java</sourceDirectory> 
+    <testSourceDirectory>src/test/java</testSourceDirectory> 
     
     <plugins>
-      <!-- Configuración del plugin para compilar el código -->
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
           <release>17</release>
-          <encoding>UTF-8</encoding> <!-- Establece la codificación para el compilador -->
+          <encoding>UTF-8</encoding>
         </configuration>
       </plugin>
 
-      <!-- Configuración del plugin para ejecutar las pruebas -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.2.5</version>
         <configuration>
-          <!-- No es necesario especificar includes, Surefire detecta automáticamente las clases que terminan en Test -->
           <includes>
-            <include>**/*Test.java</include> <!-- Asegura que todas las clases que terminan en Test.java sean ejecutadas -->
+            <include>**/*Test.java</include>
           </includes>
         </configuration>
       </plugin>
 
     </plugins>
   </build>
-  
+ 
 </project>
 
