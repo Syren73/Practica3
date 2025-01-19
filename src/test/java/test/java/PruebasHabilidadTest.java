@@ -33,9 +33,9 @@ public class PruebasHabilidadTest {
 	temp1.atacar(temp);
 	temp.usar_habilidad(temp1,temp.getHabilidades().get(0));
 	//Condicion erronea
-	//assertTrue(temp.getHp_actual() == -1);}
+	assertTrue(temp.getHp_actual() == -1);}
 	//Condicion correcta
-	assertTrue(temp.getHp_actual() == temp.getHp());}
+	//assertTrue(temp.getHp_actual() == temp.getHp());}
 	
 	@Test
 	public void testAplicacionCura2() {
