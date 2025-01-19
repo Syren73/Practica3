@@ -8,20 +8,26 @@
   <properties> 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  <!-- https://mvnrepository.com/artifact/junit/junit -->
-<dependencies>
- <dependency>
+
+  <!-- Dependencia de JUnit para pruebas -->
+  <dependencies>
+    <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
         <version>4.13</version>
         <scope>test</scope>
     </dependency>
-</dependencies>
-  
+  </dependencies>
   
   <build>
-    <sourceDirectory>src</sourceDirectory>
+    <!-- Configuración para compilar el código fuente -->
+    <sourceDirectory>src/main/java</sourceDirectory> <!-- Correcto para el código fuente -->
+    
+    <!-- Directorio para las pruebas -->
+    <testSourceDirectory>src/test/java</testSourceDirectory> <!-- Correcto para las pruebas -->
+    
     <plugins>
+      <!-- Configuración del plugin para compilar el código -->
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
@@ -31,13 +37,21 @@
         </configuration>
       </plugin>
 
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-surefire-plugin</artifactId>
-    <version>3.2.5</version>
-</plugin>
+      <!-- Configuración del plugin para ejecutar las pruebas -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.2.5</version>
+        <configuration>
+          <!-- No es necesario especificar includes, Surefire detecta automáticamente las clases que terminan en Test -->
+          <includes>
+            <include>**/*Test.java</include> <!-- Asegura que todas las clases que terminan en Test.java sean ejecutadas -->
+          </includes>
+        </configuration>
+      </plugin>
 
     </plugins>
   </build>
   
 </project>
+

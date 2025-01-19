@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.java.PruebasCombateTest" time="0.05" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\User\Desktop\TareaCalidad\Practica3\target\test-classes;C:\Users\User\Desktop\TareaCalidad\Practica3\target\classes;C:\Users\User\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Users\User\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire11931783389205278044\surefirebooter-20250119135244926_3.jar C:\Users\User\AppData\Local\Temp\surefire11931783389205278044 2025-01-19T13-52-44_536-jvmRun1 surefire-20250119135244926_1tmp surefire_0-20250119135244926_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\User\Desktop\TareaCalidad\Practica3\target\test-classes;C:\Users\User\Desktop\TareaCalidad\Practica3\target\classes;C:\Users\User\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.home" value="C:\Users\User\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\User\Desktop\TareaCalidad\Practica3"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire11931783389205278044\surefirebooter-20250119135244926_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8.1+1"/>
+    <property name="user.name" value="User"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.8.1+1"/>
+    <property name="localRepository" value="C:\Users\User\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.8.1"/>
+    <property name="user.dir" value="C:\Users\User\Desktop\TareaCalidad\Practica3"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\User\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/User/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047/jre/bin/server;C:/Users/User/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\xampp\php;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\HP\HP Performance Advisor;%MAVEN_HOME%\bin;C:\Program Files\Git\cmd;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\System32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.8.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testGanador" classname="test.java.PruebasCombateTest" time="0.019">
+    <system-out><![CDATA[Combate getGanador(): camp1
+]]></system-out>
+  </testcase>
+  <testcase name="testDetener" classname="test.java.PruebasCombateTest" time="0.0"/>
+  <testcase name="testIniciar" classname="test.java.PruebasCombateTest" time="0.029">
+    <system-out><![CDATA[Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 400 Campeon2: 590
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 390 Campeon2: 590
+Campeon1 usa habilidad1 en Campeon2, daño -> 20
+ Vida restante: Campeon1: 390 Campeon2: 557
+Campeon2 usa habilidad3 en Campeon1, daño -> 20
+ Vida restante: Campeon1: 380 Campeon2: 557
+Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 380 Campeon2: 547
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 370 Campeon2: 547
+Campeon1 usa habilidad1 en Campeon2, daño -> 25
+ Vida restante: Campeon1: 370 Campeon2: 514
+Campeon2 usa habilidad2 en Campeon1, daño -> 25
+ Vida restante: Campeon1: 355 Campeon2: 514
+Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 355 Campeon2: 504
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 345 Campeon2: 504
+Campeon1 usa habilidad1 en Campeon2, daño -> 20
+ Vida restante: Campeon1: 345 Campeon2: 471
+Campeon2 usa habilidad3 en Campeon1, daño -> 20
+ Vida restante: Campeon1: 335 Campeon2: 471
+Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 335 Campeon2: 461
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 325 Campeon2: 461
+Campeon1 usa habilidad1 en Campeon2, daño -> 31
+ Vida restante: Campeon1: 325 Campeon2: 428
+Campeon2 usa habilidad1 en Campeon1, daño -> 31
+ Vida restante: Campeon1: 304 Campeon2: 428
+Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 304 Campeon2: 418
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 294 Campeon2: 418
+Campeon1 usa habilidad1 en Campeon2, daño -> 31
+ Vida restante: Campeon1: 294 Campeon2: 385
+Campeon2 usa habilidad1 en Campeon1, daño -> 31
+ Vida restante: Campeon1: 273 Campeon2: 385
+Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 273 Campeon2: 375
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 263 Campeon2: 375
+Campeon1 usa habilidad3 en Campeon2, daño -> 20
+ Vida restante: Campeon1: 263 Campeon2: 356
+Campeon2 usa habilidad3 en Campeon1, daño -> 20
+ Vida restante: Campeon1: 253 Campeon2: 356
+Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 253 Campeon2: 346
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 243 Campeon2: 346
+Campeon1 usa habilidad1 en Campeon2, daño -> 25
+ Vida restante: Campeon1: 243 Campeon2: 313
+Campeon2 usa habilidad2 en Campeon1, daño -> 25
+ Vida restante: Campeon1: 228 Campeon2: 313
+Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 228 Campeon2: 303
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 218 Campeon2: 303
+Campeon1 usa habilidad3 en Campeon2, daño -> 20
+ Vida restante: Campeon1: 218 Campeon2: 284
+Campeon2 usa habilidad3 en Campeon1, daño -> 20
+ Vida restante: Campeon1: 208 Campeon2: 284
+Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 208 Campeon2: 274
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 198 Campeon2: 274
+Campeon1 usa habilidad2 en Campeon2, daño -> 31
+ Vida restante: Campeon1: 198 Campeon2: 260
+Campeon2 usa habilidad1 en Campeon1, daño -> 31
+ Vida restante: Campeon1: 177 Campeon2: 260
+Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 177 Campeon2: 250
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 167 Campeon2: 250
+Campeon1 usa habilidad1 en Campeon2, daño -> 20
+ Vida restante: Campeon1: 167 Campeon2: 217
+Campeon2 usa habilidad3 en Campeon1, daño -> 20
+ Vida restante: Campeon1: 157 Campeon2: 217
+Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 157 Campeon2: 207
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 147 Campeon2: 207
+Campeon1 usa habilidad1 en Campeon2, daño -> 31
+ Vida restante: Campeon1: 147 Campeon2: 174
+Campeon2 usa habilidad1 en Campeon1, daño -> 31
+ Vida restante: Campeon1: 126 Campeon2: 174
+Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 126 Campeon2: 164
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 116 Campeon2: 164
+Campeon1 usa habilidad3 en Campeon2, daño -> 25
+ Vida restante: Campeon1: 116 Campeon2: 145
+Campeon2 usa habilidad2 en Campeon1, daño -> 25
+ Vida restante: Campeon1: 101 Campeon2: 145
+Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 101 Campeon2: 135
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 91 Campeon2: 135
+Campeon1 usa habilidad3 en Campeon2, daño -> 20
+ Vida restante: Campeon1: 91 Campeon2: 116
+Campeon2 usa habilidad3 en Campeon1, daño -> 20
+ Vida restante: Campeon1: 81 Campeon2: 116
+Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 81 Campeon2: 106
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 71 Campeon2: 106
+Campeon1 usa habilidad3 en Campeon2, daño -> 25
+ Vida restante: Campeon1: 71 Campeon2: 87
+Campeon2 usa habilidad2 en Campeon1, daño -> 25
+ Vida restante: Campeon1: 56 Campeon2: 87
+Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 56 Campeon2: 77
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 46 Campeon2: 77
+Campeon1 usa habilidad3 en Campeon2, daño -> 31
+ Vida restante: Campeon1: 46 Campeon2: 58
+Campeon2 usa habilidad1 en Campeon1, daño -> 31
+ Vida restante: Campeon1: 25 Campeon2: 58
+Campeon1 ataca a Campeon2, daño -> 30
+ Vida restante: Campeon1: 25 Campeon2: 48
+Campeon2 ataca a Campeon1, daño -> 20
+ Vida restante: Campeon1: 15 Campeon2: 48
+Campeon1 usa habilidad3 en Campeon2, daño -> 25
+ Vida restante: Campeon1: 15 Campeon2: 29
+Campeon2 usa habilidad2 en Campeon1, daño -> 25
+ Vida restante: Campeon1: 0 Campeon2: 29
+]]></system-out>
+  </testcase>
+</testsuite>

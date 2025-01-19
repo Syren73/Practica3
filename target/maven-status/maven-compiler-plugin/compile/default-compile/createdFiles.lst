@@ -1,0 +1,5 @@
+main\java\edu\ucam\constantes\TipoHabilidad.class
+main\java\edu\ucam\domain\Habilidad.class
+main\java\edu\ucam\domain\Campeon.class
+main\java\edu\ucam\domain\Combate.class
+main\java\edu\ucam\constantes\Rol.class

@@ -7,14 +7,15 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.ArrayList;
 import java.util.Random;
-
-import org.junit.Test;
-
-import main.java.edu.ucam.constantes.Rol;
-import main.java.edu.ucam.constantes.TipoHabilidad;
 import main.java.edu.ucam.domain.Campeon;
 import main.java.edu.ucam.domain.Combate;
 import main.java.edu.ucam.domain.Habilidad;
+import main.java.edu.ucam.constantes.Rol;
+import main.java.edu.ucam.constantes.TipoHabilidad;
+
+import org.junit.Test;
+
+
 
 public class PruebasCombateTest {
 
